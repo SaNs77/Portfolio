@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.stick {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar img {
+  height: 100px;
+  width: 100px;
+  border: 1px black solid;
+  border-radius: 50%;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  text-align: center;
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+  margin-left: 35%;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item:hover {
+  color: blue;
+  background: #fff;
+  border-radius: 15%;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item:active {
+  color: red;
+}
+.carousel-item img {
+  height: 33rem;
+}
+
+#about {
+  padding-bottom: 50px;
+  color: #555;
+}
+#about .head {
+  text-align: center;
+  background: #efefef;
+  color: black;
+  height: 70px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+}
+
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+
+.abt {
+  font-weight: 600;
+}
+
+.skills p {
+  margin-bottom: 6px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.progress .progress-bar {
+  border-radius: 16px;
+}
+
+.ser {
+  text-align: center;
+  background: #efefef;
+  color: black;
+  height: 70px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+}
+
+i {
+  font-size: 60px;
+  padding: 15px;
+  color: blue;
+  transition: 0.5s;
+  border-radius: 35%;
+}
+
+i:hover {
+  border-radius: 35%;
+  background: white;
+  color: green;
+}
+.col {
+  text-align: center;
+  background: rgb(167, 153, 153);
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: -14px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact-us {
+  text-align: center;
+  background: #efefef;
+  color: black;
+  height: 70px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  margin-top: 20px;
+}
+
+.text_area {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.btn_sub {
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  border-radius: 10px;
+}
+.cntct {
+  border: 1px black solid;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10%;
+  box-shadow: inset 59px 42px 51px -27px rgba(0, 0, 0, 0.75),
+    inset -59px -42px 51px -27px rgba(0, 0, 0, 0.75);
+}
+
+.con_ico a i {
+  box-shadow: inset 36px 42px 51px -27px rgba(0, 0, 0, 0.75);
+}
+.cntct .info p {
+  font-size: 30px;
+}
+
+.info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.thank {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.last {
+  margin-top: 50px;
+  text-align: center;
+  height: 100%;
+  background: rgb(58, 53, 53);
+}
+.last p {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0;
+  padding: 10px;
+}
